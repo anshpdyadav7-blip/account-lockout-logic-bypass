@@ -1,4 +1,3 @@
-Markdown
 # Authentication Oracle: Account Lockout Logic Flaw Exploit Framework
 
 A modular, high-performance Python security toolset engineered to identify and exploit flawed authentication state handlers. This framework demonstrates how poorly implemented anti-brute-force rate limits (specifically, sequential account lockout thresholds) can be weaponized as an **Information Oracle** to systematically isolate valid usernames and bypass account lockout controls to extract passwords.
@@ -22,7 +21,8 @@ account-lockout-logic-bypass/
 ├── README.md                # Technical documentation
 ├── solve_usernames.py       # Phase 1: User enumeration framework
 └── solve_passwords.py       # Phase 2: Password extraction framework
-🛠️ Engineering Features
+
+## 🛠️ Engineering Features
 Extensible Configuration: Built for rapid adaptation. By modifying the HTTP POST payload dictionaries and target parameter arrays, the code scales across custom enterprise login API endpoints (JSON, application/x-www-form-urlencoded).
 
 Inline Routing Interception: Integrated default upstream proxying (127.0.0.1:8080) for seamless debugging, session inspection, and downstream analysis via Burp Suite Professional.
