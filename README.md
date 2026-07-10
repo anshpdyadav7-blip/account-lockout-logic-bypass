@@ -13,7 +13,7 @@ Phase 1: Enumeration Oracle (solve_usernames.py) Iterates through a directory of
 Phase 2: Authentication Bypass (solve_passwords.py) Utilizes the discovered username to execute automated password spraying. To neutralize the application's lock counter, the engine maps a candidate password immediately followed by $N-1$ deliberate dummy failures (where $N$ is the lockout threshold). If the cluster fails to lock the account, the engine mathematically infers that the first password cleared the internal session failure counter, verifying a successful match without triggering a persistent lockout denial of service.
 
 ## 📁 Repository Architecture
-
+```text
 account-lockout-logic-bypass/
 ├── .gitignore               # Weaponized wordlist isolation controls
 ├── requirements.txt         # Core dependencies
@@ -21,7 +21,7 @@ account-lockout-logic-bypass/
 ├── solve_usernames.py       # Phase 1: User enumeration framework
 └── solve_passwords.py       # Phase 2: Password extraction framework
 
-
+```
 ## 🛠️ Engineering Features
 
 Extensible Configuration: Built for rapid adaptation. By modifying the HTTP POST payload dictionaries and target parameter arrays, the code scales across custom enterprise login API endpoints (JSON, application/x-www-form-urlencoded).
