@@ -1,4 +1,3 @@
-
 # Authentication Oracle: Account Lockout Logic Flaw Exploit Framework
 
 A modular, high-performance Python security toolset engineered to identify and exploit flawed authentication state handlers. This framework demonstrates how poorly implemented anti-brute-force rate limits (specifically, sequential account lockout thresholds) can be weaponized as an **Information Oracle** to systematically isolate valid usernames and bypass account lockout controls to extract passwords.
@@ -67,15 +66,10 @@ Bash
 python3 solve_passwords.py
 ⚠️ Disclaimer
 This toolset is developed exclusively for authorized security audits, penetration testing engagements, and educational research within controlled training sandboxes. Execution against external infrastructure without an explicit, legally binding Rules of Engagement (RoE) agreement signed by system owners is strictly prohibited. The author accepts no liability for actions or damages caused by this code framework.
+EOF
 
-
----
-
-### 🚀 Push the Finished Project Live
-
-To push this final professional framework update live to your GitHub repository, run this sequence in your Kali terminal:
-
-```bash
 git add README.md
 git commit -m "Docs: Refactor README into generic enterprise-grade exploit framework documentation"
 git push origin main
+
+
