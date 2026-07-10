@@ -74,6 +74,6 @@ Step 2: Weaponize the Account Oracle against Target Credentials
 python3 solve_passwords.py
 
 
-⚠️ Disclaimer
+### ⚠️ Disclaimer
 
 This toolset is developed exclusively for authorized security audits, penetration testing engagements, and educational research within controlled training sandboxes. Execution against external infrastructure without an explicit, legally binding Rules of Engagement (RoE) agreement signed by system owners is strictly prohibited. The author accepts no liability for actions or damages caused by this code framework.
